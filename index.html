@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="FESTO — городской фестиваль музыки, уличного искусства и современной культуры."
+    />
+    <meta name="theme-color" content="#151515" />
+
+    <title>FESTO — фестиваль музыки и городской культуры</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="logo" href="#home" aria-label="FESTO — на главную">
+          FESTO<span>.</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          aria-controls="navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" id="navigation" aria-label="Основная навигация">
+          <a href="#about">О фестивале</a>
+          <a href="#artists">Участники</a>
+          <a href="#program">Программа</a>
+          <a href="#tickets">Билеты</a>
+        </nav>
+
+        <a class="button button--small header__ticket" href="#tickets">
+          Купить билет
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="eyebrow">МУЗЫКА · АРТ · ГОРОДСКАЯ КУЛЬТУРА</p>
+
+            <h1>
+              ГОРОД<br />
+              БУДЕТ <span>ГРОМЧЕ.</span>
+            </h1>
+
+            <p class="hero__description">
+              Один день, десятки артистов и тысячи людей, объединённых музыкой и
+              свободой самовыражения.
+            </p>
+
+            <div class="hero__details">
+              <div>
+                <span class="detail-label">КОГДА</span>
+                <strong>15 августа 2027</strong>
+              </div>
+
+              <div>
+                <span class="detail-label">ГДЕ</span>
+                <strong>Фестивальный парк</strong>
+              </div>
+            </div>
+
+            <div class="hero__actions">
+              <a class="button" href="#tickets">Выбрать билет ↗</a>
+              <a class="text-link" href="#program">Смотреть программу ↓</a>
+            </div>
+          </div>
+
+          <div class="hero__visual" aria-hidden="true">
+            <div class="hero__circle"></div>
+            <div class="hero__sun"></div>
+            <div class="hero__label">FEEL<br />THE<br />BEAT</div>
+            <div class="hero__year">2027</div>
+            <div class="hero__sticker">
+              ONE DAY.<br />ONE CITY.<br />ONE VIBE.
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__ticker" aria-hidden="true">
+          <div class="hero__ticker-track">
+            <span>MUSIC IS OUR LANGUAGE ✳ FEEL THE ENERGY ✳</span>
+            <span>MUSIC IS OUR LANGUAGE ✳ FEEL THE ENERGY ✳</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container">
+          <p class="eyebrow">01 / О ФЕСТИВАЛЕ</p>
+
+          <div class="section-heading">
+            <h2>НЕ ПРОСТО ФЕСТИВАЛЬ.<br />ЦЕЛАЯ <span>ВСЕЛЕННАЯ.</span></h2>
+
+            <p>
+              FESTO — пространство, где встречаются музыка, искусство и люди,
+              которым мало обычного. Приходи за эмоциями, оставайся ради
+              атмосферы.
+            </p>
+          </div>
+
+          <div class="about__stats">
+            <div class="stat">
+              <strong>20+</strong>
+              <span>АРТИСТОВ</span>
+            </div>
+
+            <div class="stat">
+              <strong>3</strong>
+              <span>СЦЕНЫ</span>
+            </div>
+
+            <div class="stat">
+              <strong>1</strong>
+              <span>БОЛЬШОЙ ДЕНЬ</span>
+            </div>
+
+            <div class="stat">
+              <strong>∞</strong>
+              <span>ЭМОЦИЙ</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section artists" id="artists">
+        <div class="container">
+          <p class="eyebrow">02 / УЧАСТНИКИ</p>
+
+          <div class="section-title-row">
+            <h2>ЭТОТ ЗВУК<br />ТЫ <span>ЗАПОМНИШЬ.</span></h2>
+            <p>Знакомься с участниками нашего вымышленного фестиваля.</p>
+          </div>
+
+          <div class="artists__grid">
+            <article class="artist-card artist-card--one">
+              <div class="artist-card__number">01</div>
+              <div class="artist-card__info">
+                <span>ЭЛЕКТРОНИКА</span>
+                <h3>NEON<br />PULSE</h3>
+              </div>
+            </article>
+
+            <article class="artist-card artist-card--two">
+              <div class="artist-card__number">02</div>
+              <div class="artist-card__info">
+                <span>ИНДИ-ПОП</span>
+                <h3>THE<br />WAVES</h3>
+              </div>
+            </article>
+
+            <article class="artist-card artist-card--three">
+              <div class="artist-card__number">03</div>
+              <div class="artist-card__info">
+                <span>ХИП-ХОП</span>
+                <h3>FRESH<br />BLOCK</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section program" id="program">
+        <div class="container">
+          <p class="eyebrow">03 / ПРОГРАММА</p>
+
+          <div class="section-title-row">
+            <h2>ТВОЙ ДЕНЬ.<br /><span>ТВОЙ РИТМ.</span></h2>
+            <p>Предварительное расписание демонстрационного проекта.</p>
+          </div>
+
+          <div class="schedule">
+            <article class="schedule__item">
+              <time datetime="2027-08-15T14:00">14:00</time>
+              <div>
+                <h3>Открытие фестиваля</h3>
+                <p>Встречаемся, знакомимся, разогреваемся.</p>
+              </div>
+              <span class="schedule__tag">MAIN STAGE</span>
+            </article>
+
+            <article class="schedule__item">
+              <time datetime="2027-08-15T16:00">16:00</time>
+              <div>
+                <h3>NEON PULSE</h3>
+                <p>Электронные ритмы и мощный звук.</p>
+              </div>
+              <span class="schedule__tag">MAIN STAGE</span>
+            </article>
+
+            <article class="schedule__item">
+              <time datetime="2027-08-15T18:00">18:00</time>
+              <div>
+                <h3>FRESH BLOCK</h3>
+                <p>Уличная культура и новые имена.</p>
+              </div>
+              <span class="schedule__tag">URBAN STAGE</span>
+            </article>
+
+            <article class="schedule__item">
+              <time datetime="2027-08-15T20:00">20:00</time>
+              <div>
+                <h3>THE WAVES</h3>
+                <p>Живой звук на закате.</p>
+              </div>
+              <span class="schedule__tag">MAIN STAGE</span>
+            </article>
+
+            <article class="schedule__item">
+              <time datetime="2027-08-15T22:00">22:00</time>
+              <div>
+                <h3>Финальное шоу</h3>
+                <p>Завершаем день на максимальной громкости.</p>
+              </div>
+              <span class="schedule__tag">ALL STAGES</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tickets" id="tickets">
+        <div class="container">
+          <p class="eyebrow">04 / БИЛЕТЫ</p>
+
+          <div class="section-title-row">
+            <h2>ТВОЁ МЕСТО<br /><span>ЗДЕСЬ.</span></h2>
+            <p>Выбери формат участия. Цены и тарифы вымышлены.</p>
+          </div>
+
+          <div class="tickets__grid">
+            <article class="ticket-card">
+              <p class="ticket-card__type">BASIC</p>
+              <h3>Стандарт</h3>
+              <p class="ticket-card__description">
+                Доступ ко всем основным площадкам фестиваля.
+              </p>
+              <p class="ticket-card__price">1 500 ₽</p>
+              <button
+                class="button button--outline ticket-select"
+                data-ticket="Стандарт"
+              >
+                Выбрать билет
+              </button>
+            </article>
+
+            <article class="ticket-card ticket-card--featured">
+              <p class="ticket-card__badge">ПОПУЛЯРНЫЙ</p>
+              <p class="ticket-card__type">PLUS</p>
+              <h3>Комфорт</h3>
+              <p class="ticket-card__description">
+                Основные площадки и отдельная зона отдыха.
+              </p>
+              <p class="ticket-card__price">3 000 ₽</p>
+              <button class="button ticket-select" data-ticket="Комфорт">
+                Выбрать билет
+              </button>
+            </article>
+
+            <article class="ticket-card">
+              <p class="ticket-card__type">VIP</p>
+              <h3>Максимум</h3>
+              <p class="ticket-card__description">
+                VIP-зона и отдельный вход на мероприятие.
+              </p>
+              <p class="ticket-card__price">6 000 ₽</p>
+              <button
+                class="button button--outline ticket-select"
+                data-ticket="Максимум"
+              >
+                Выбрать билет
+              </button>
+            </article>
+          </div>
+
+          <div class="ticket-form-wrap" id="ticket-order">
+            <h3>Оставить заявку</h3>
+            <p>Это демонстрационная форма. Реальной покупки и оплаты нет.</p>
+
+            <form id="ticket-form">
+              <div class="form-row">
+                <label>
+                  Имя
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Как к тебе обращаться?"
+                    required
+                  />
+                </label>
+
+                <label>
+                  Электронная почта
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                </label>
+              </div>
+
+              <label>
+                Выбранный билет
+                <select name="ticket" id="ticket-type" required>
+                  <option value="">Выбери тариф</option>
+                  <option value="Стандарт">Стандарт — 1 500 ₽</option>
+                  <option value="Комфорт">Комфорт — 3 000 ₽</option>
+                  <option value="Максимум">Максимум — 6 000 ₽</option>
+                </select>
+              </label>
+
+              <button class="button" type="submit">Отправить заявку ↗</button>
+
+              <p
+                class="form-message"
+                id="form-message"
+                role="status"
+                aria-live="polite"
+              ></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <a class="logo" href="#home">FESTO<span>.</span></a>
+        <p>Демонстрационный проект для портфолио веб-разработчика.</p>
+        <a class="text-link" href="#home">Наверх ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
